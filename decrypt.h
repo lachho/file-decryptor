@@ -1,12 +1,7 @@
-////////////////////////////////////////////////////////////////////////////////
-// COMP1521 23T3 --- Assignment 2: `tide', a terribly insecure (file) decryptor
-// <https://www.cse.unsw.edu.au/~cs1521/23T3/assignments/ass2/index.html>
-//
-// 2023-10-25   v1.0    Team COMP1521 <cs1521 at cse.unsw.edu.au>
-// Some useful constants and function signatures for tide.c
+// Some useful constants and function signatures for decrypt.c
 
-#ifndef __TIDE_H__
-#define __TIDE_H__
+#ifndef __DECRYPT_H__
+#define __DECRYPT_H__
 
 #include <stdbool.h>
 
@@ -55,4 +50,4 @@ void  sort_strings(char *strings[], int count);
 void  sort_content_results(content_result *results[], int count);
 char *generate_random_string(int seed);
 
-#endif
+#endif // __DECRYPT_H__
